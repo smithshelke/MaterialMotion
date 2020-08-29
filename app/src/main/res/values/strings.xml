@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Material Motion</string>
+    <string name="mapbox_access_token">pk.eyJ1Ijoic21pdGhzaGVsa2UiLCJhIjoiY2tkdmJmMjNpMHA5cjMxc2d6eXY0NXI0bCJ9.yPXzY3RIn8bWcuPV4cJuPw</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_order">Search order</string>
+</resources>

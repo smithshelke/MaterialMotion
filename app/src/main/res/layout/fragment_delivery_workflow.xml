@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/fragment_delivery_workflow_scene"
+    tools:context=".DeliveryWorkflowFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="370dp"/>
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mapbox_cameraTargetLat="12.931121"
+        app:mapbox_cameraTargetLng="77.628402"
+        app:mapbox_cameraZoom="16"
+        app:mapbox_cameraZoomMin="15"
+        app:mapbox_renderTextureMode="true"
+        app:mapbox_uiRotateGestures="false" >
+
+    </com.mapbox.mapboxsdk.maps.MapView>
+
+    <FrameLayout
+        android:id="@+id/orderSheet"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="?attr/colorSurface"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" >
+
+    </FrameLayout>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

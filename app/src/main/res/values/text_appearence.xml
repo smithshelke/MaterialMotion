@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="TextAppearance.MaterialMotion.headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/comfortaa</item>
+    </style>
+    <style name="TextAppearance.MaterialMotion.headline5" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/comfortaa</item>
+    </style>
+    <style name="TextAppearance.MaterialMotion.headline4" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/comfortaa</item>
+    </style>
+    <style name="TextAppearance.MaterialMotion.headline3" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/comfortaa</item>
+    </style>
+    <style name="TextAppearance.MaterialMotion.body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/comfortaa_bold</item>
+    </style>
+    <style name="TextAppearance.MaterialMotion.body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/comfortaa</item>
+    </style>
+</resources>
